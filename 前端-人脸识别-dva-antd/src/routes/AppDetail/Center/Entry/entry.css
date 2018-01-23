@@ -1,0 +1,32 @@
+.textTitleLimited{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    // max-width: 100px;
+}
+
+.fileProp{
+    padding-left: 10px;
+    line-height: 38px;
+    font-size: 14px;   
+}
+.entry{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+    transition: all .25s ease-in-out;
+}
+.entry:hover{
+    background-color: #f3f3f3;
+}
+
+
+.hoverBlue:hover{
+    color:#108ee9;
+}
+.primaryIcon{
+    color: #CCC;
+    cursor: pointer;
+}
+.primaryIcon:hover{
+    color:#108ee9;
+}

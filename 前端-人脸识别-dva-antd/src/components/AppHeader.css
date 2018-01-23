@@ -1,0 +1,24 @@
+.exit{
+    height: 25px;
+    vertical-align: middle;
+    padding: 0 20px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+.exit:active{
+    visibility: hidden;
+}
+
+.title {
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-bottom: 2px
+}
+.userName{
+    font-weight: 300;
+    color: #3c3c3c;
+    font-size: 15px;
+}

@@ -1,0 +1,67 @@
+.delete{
+  cursor: pointer;
+  color: rgba(255, 39, 0, 0.65);
+}
+.delete:hover{
+   color:red;
+}
+.lables{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 168px; /*158*/
+  cursor:pointer;
+  user-select:none;
+}
+.lables:hover{
+    color:#108ee9;
+}
+.collapseHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.overflowAuto{
+    overflow: auto;
+}
+.overflowAuto::-webkit-scrollbar {
+  height:5px;
+  width: 4px;
+  background: white;
+}
+.overflowAuto::-moz-scrollbar {
+  height:5px;
+  width: 4px;
+  background: white;
+}
+.overflowAuto::-ms-scrollbar {
+  height:5px;
+  width: 4px;
+  background: white;
+}
+.overflowAuto::-o-scrollbar {
+  height:5px;
+  width: 4px;
+  background: white;
+}
+.overflowAuto::scrollbar {
+  height:5px;
+  width: 4px;
+  background: white;
+}
+.overflowAuto::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+.overflowAuto::-moz-scrollbar-thumb {
+  background: #ccc;
+}
+.overflowAuto::-ms-scrollbar-thumb {
+  background: #ccc;
+}
+.overflowAuto::-o-scrollbar-thumb {
+  background: #ccc;
+}
+.overflowAuto::scrollbar-thumb {
+  background: #0095ff;
+}
+

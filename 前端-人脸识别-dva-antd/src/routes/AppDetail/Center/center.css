@@ -1,0 +1,65 @@
+.pathSpan{
+    user-select:none;
+    cursor: pointer;
+}
+.pathSpan:hover{
+    color:#108ee9;
+}
+.fileTitle{
+    line-height: 38px;
+    padding-left: 10px;
+    font-size: 14px;   
+    color: rgba(0, 0, 0, 0.85);
+}
+.CCCTitle{
+    line-height: 38px;
+    // padding-left: 10px;
+    font-size: 14px;   
+}
+
+
+
+.overflowAuto{
+    overflow: scroll;
+}
+.overflowAuto::-webkit-scrollbar {
+  height:1px;
+  width: 3px;
+  background: white;
+}
+.overflowAuto::-moz-scrollbar {
+  height:1px;
+  width: 3px;
+  background: white;
+}
+.overflowAuto::-ms-scrollbar {
+  height:1px;
+  width: 3px;
+  background: white;
+}
+.overflowAuto::-o-scrollbar {
+  height:1px;
+  width: 3px;
+  background: white;
+}
+.overflowAuto::scrollbar {
+  height:1px;
+  width: 3px;
+  background: white;
+}
+.overflowAuto::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+.overflowAuto::-moz-scrollbar-thumb {
+  background: #ccc;
+}
+.overflowAuto::-ms-scrollbar-thumb {
+  background: #ccc;
+}
+.overflowAuto::-o-scrollbar-thumb {
+  background: #ccc;
+}
+.overflowAuto::scrollbar-thumb {
+  background: #ccc;
+}
+
