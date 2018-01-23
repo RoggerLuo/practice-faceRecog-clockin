@@ -34,3 +34,5 @@ Resize 把人脸区域 像素降低，兼顾识别准确率和识别速度
 keras的dense层是什么？  
 为什么用tensorflow不行… 估计写法有问题  
 不要纠结了
+
+都丢git上
